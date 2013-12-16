@@ -1,0 +1,23 @@
+body{
+  background-color:gray;
+  text-align:center}
+
+h1{color:purple;}
+
+.cookies{
+  height:250px;
+  width:250px;
+}
+
+ul {list-style:none;
+}
+
+footer {text-align:center;}
+
+.instructs {padding-left:20%;
+  margin-right:20%;}
+
+a:link {color:blueviolet;}     
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} 

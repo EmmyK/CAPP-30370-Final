@@ -1,0 +1,35 @@
+body{background-color:gray;}
+
+h1{
+  color:purple;
+}
+
+.tomato{
+  height:250px;
+    width:250px;
+}
+
+.scroll {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 10s infinite;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}
+
+footer{
+  margin-top:4em;
+  text-align:center;
+}
+
+ul {list-style:none;
+}
+
+a:link {color:blueviolet;}     
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} 

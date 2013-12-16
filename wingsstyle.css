@@ -1,0 +1,43 @@
+h1{
+  text-align:center;
+  color:purple;
+}
+
+body{
+  
+  background-color:gray}
+
+.wings{
+  height:250px;
+  width:250px;
+}
+
+.wings {
+    clear: both;
+    padding: 1px;
+  
+}
+.ingredients {
+    float: left;
+  width: 30%;
+  margin-left:3em
+    
+    }
+.instructions {
+    float: right; 
+  width: 38%;
+  margin-right:3em;
+   }
+
+footer{
+  margin-top:4em;
+  text-align:center;
+}
+
+ul {list-style:none;
+}
+
+a:link {color:blueviolet;}     
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} 

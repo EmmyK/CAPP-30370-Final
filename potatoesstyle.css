@@ -1,0 +1,30 @@
+body {background-color:gray;}
+
+header{
+  background-image:url('http://www.wallsave.com/wallpapers/1920x1080/black-pattern/437906/black-pattern-437906.jpg');
+}
+
+h1{color:blueviolet;
+  text-align:center;
+ }
+
+.potato {
+  transition:all 1s ease-in-out;
+  width: 150px;
+  height: 150px;
+  position: center;
+}
+.potato:hover {
+  width: 450px;
+  height:450px;}
+
+footer {text-align:center; clear:left; width: 100%; 
+}
+
+ul {list-style:none;
+}
+
+a:link {color:blueviolet;}     
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} 
