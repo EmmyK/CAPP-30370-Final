@@ -1,17 +1,20 @@
- document.getElementById('get-attr').addEventListener("click", function(){
-   var input = document.getElementById('picture');
-   console.log(input.getAttribute('text'));
-   console.log(input.getAttribute('alt'));
-   console.log(input.getAttribute('height'));
-   console.log(input.getAttribute('width'));
+  $(document).on('click','img', function() {
+  var $this = $(this);
+  console.log('Alt: ', $(this).attr("alt"));
+	console.log('width:', $(this).width());
+	console.log('height:', $(this).height());
+	});
+						
+  $(document).on('click', 'h1,h2,h3,h4', function() {
+  var $this = $(this);
+	console.log("Alt Text:", $(this).text());
+	console.log('color:', $(this).css('color'));
+	console.log('font-size:', $(this).css('color'));
   });
+  
 
-document.getElementById('get-attr').addEventListener("click", function(){
-    var input = document.getElementById('header');
-    console.log(input.getAttribute('text-color'));
-    console.log(input.getAttribute('font-size'));
-  });
+console.log($(window).width());
 
-$('.width').text($(window).width());
-console.log('width'):;
-});
+ $(window).resize(function(){
+    $('width').text($(window).width());
+	});
