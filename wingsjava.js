@@ -9,7 +9,7 @@
   var $this = $(this);
 	console.log("Alt Text:", $(this).text());
 	console.log('color:', $(this).css('color'));
-	console.log('font-size:', $(this).css('color'));
+	console.log('font-size:', $(this).css('font-size'));
   });
   
 
